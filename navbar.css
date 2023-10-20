@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(214, 16, 16);
+}
+nav {
+    block-size: 100%;
+    height: 40px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fffefe;
+    padding: 10px 8px 10px 8px;
+    align-items: center;
+}
+.navbar {
+    display: inline-block;
+}
+.navbar > div {
+    display: inline;
+}
+.navbar.l > div {
+    margin: 8px;
+}
+nav > .navbar.l > div:first-child,
+nav > .navbar.l > div:nth-child(2) > a {
+    color: #fffefe;
+}
+nav > .navbar.l > div:first-child {
+    font-size:larger;
+}
+nav > .navbar.l > div > a,
+nav > .navbar.l > div > button {
+    font-size: medium;
+}
+a {
+    text-decoration: none;
+}
+nav, button {
+    background-color:  #21252a;
+}
+nav > .navbar.l > div > button {
+    border: none;
+}
+nav > .navbar.l > div > button,
+nav > .navbar.l > div:nth-child(3) > a {
+    color: #9a9c9e;
+}
+nav > .navbar.l > div:last-child > a {
+    color: #585c5e;
+}
+nav > .navbar.r > div > input {
+    border-style: hidden;
+    border-radius: 2%;
+}
+nav > .navbar.r > div > input,
+nav > .navbar.r > div > button {
+    padding: 10px;
+}
+nav > .navbar.r > div > button {
+    border-color: #188754;
+    color: #188754;
+    border-style:groove;
+    border-radius: 10%;
+}
+nav > .navbar.r > div > button:hover {
+    background-color: #188754;
+}
+  
